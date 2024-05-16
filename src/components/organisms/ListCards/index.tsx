@@ -17,17 +17,18 @@ const ListCards = () => {
         <main className='list-cards' >
             {itemsToRender.map((category) => {
                 return (
-                    <section className='category' id={category.id}>
+                    <section className='category' id={category.id} key={category.id}>
                         <div className='category-header'>
                             <h4>{category.name}</h4>
                             {window.innerWidth >= 768 && <p className='description'>{category.description}</p>}
                         </div>
                         <div className='item' style={{ borderColor: category.borderColor }}>
                             {window.innerWidth <= 768 && <p className='description'>{category.description}</p>}
-                            {category.items.map((item) => {
+                            {category.items.map((item, index) => {
                                 isImageRight = !isImageRight; 
                                 return (
                                     <Card
+                                        key={index}
                                         title={item.title}
                                         description={item.description}
                                         image={item.image}

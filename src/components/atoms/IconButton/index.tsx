@@ -9,7 +9,6 @@ interface IconButtonProps {
 }
 
 const IconButton = ({ size = 'small', icon, onClick }: IconButtonProps) => {
-
     return (
         <button className={`icon-button ${size}`} onClick={onClick}>
             <img src={icon}  />

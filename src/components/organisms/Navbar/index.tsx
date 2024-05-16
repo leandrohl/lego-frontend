@@ -15,7 +15,7 @@ const Navbar = ({ openMenu } : NavBarProps) => {
         <header className='header'>
             <div className='icon-menu'>
                 <img src={Lego} alt='lego' height={48} width={48}/>
-                <span onClick={openMenu}>
+                <span onClick={openMenu} >
                     <img src={Categories} alt='categorias' />
                     <p> Categories </p>
                 </span>

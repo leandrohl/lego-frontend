@@ -4,8 +4,10 @@ import Button from '@components/atoms/Button';
 import './styles.scss'
 import ArrowLeft from '@assets/svg/arrow-left.svg';
 
+type CardType = 'primary' | 'secondary';
+
 interface CardProps {
-    type: 'primary' | 'secondary';
+    type: CardType;
     title: string;
     description: string;
     image: {
@@ -22,7 +24,7 @@ const Card = ({ type, title, description, image, viewDetails }: CardProps) => {
                 <h3>{title}</h3>
                 <p>{description}</p>
                 <div>
-                    <Button rightIcon={ArrowLeft} type='primary' onClick={viewDetails}>View details</Button>
+                    <Button rightIcon={ArrowLeft} onClick={viewDetails}>View details</Button>
                 </div>
             </div>
             <div className='img'>

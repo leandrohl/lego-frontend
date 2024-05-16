@@ -16,12 +16,12 @@ interface MenuProps {
 
 const Menu = ({isOpen, closeMenu}: MenuProps ) => {
     return (
-        <div className={`menu-container ${isOpen ? 'open' : 'closed'}`}>
+        <div className={`menu-container ${isOpen ? 'open' : 'closed'}`} role='menu'>
            <div className='menu-first'>
                 <div>
                     <div className='header-menu'>
                         <img src={Lego} alt='lego' height={48} width={48}/>
-                        <button onClick={closeMenu}><img src={CloseIcon} /></button>
+                        <button onClick={closeMenu} role='close-icon'><img src={CloseIcon} /></button>
                     </div>
                     <ItemMenu icon={HomeIcon} text='Home'/>
                     <ItemMenu icon={ShoppingBag} text='Requests'/>
