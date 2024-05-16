@@ -1,0 +1,46 @@
+@import '../../styles/_variables.scss';
+
+
+.category {
+    display: flex;
+    flex-direction: column;
+    margin-top: 84px; 
+}
+
+.category-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0 10%;
+
+    > h4 {
+        text-transform: uppercase;
+        font-weight: 400;
+    }
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid $brandOrange;
+    gap: 32px;
+    align-items: flex-end;
+
+    &:not(:last-child) {
+        border-bottom: 1px solid $brandOrange;
+    }
+
+    @media (max-width: 768px) {
+        gap: 16px;
+    }
+}
+
+.description {
+    text-align: right;
+
+    @media (max-width: 768px) {
+        margin: 16px 16px 0 0;
+        width: 90%;
+    }
+}
