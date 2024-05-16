@@ -1,0 +1,26 @@
+@import '../../styles/_variables.scss';
+
+.icon-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 2px solid $background1;
+    border-radius: 40px;
+    background-color: rgba(245, 245, 245, 0.4);
+
+
+    img {
+        margin: 0;
+    }
+
+    &.small {
+        height: 64px;
+        width: 64px;
+    }
+
+    &.large {
+        height: 80px;
+        width: 80px;
+    }
+}

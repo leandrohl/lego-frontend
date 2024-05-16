@@ -1,36 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import './_variables';
 
-$font-stack: "Poppins", sans-serif;
-
-$blueXLight: #BBDCF5;
-$blueLight: #2CAFE5;
-$brandBlue: #006CB7;
-$blueDark: #004A80;
-
-$yellowXLight: #FFF6DB;
-$yellowLight: #FFFF62;
-$brandYellow: #FFD500;
-$yellowDark: #EDBA00;
-
-$redXLight: #F9C4AE;
-$redLight: #F3987A;
-$brandRed: #E3000B;
-$redDark: #9B0600;
-
-$greenXLight: #C0DFC3;
-$greenLight: #9ACEA3;
-$brandGreen: #00963E;
-$greenDark: #006A2A;
-
-$brandOrange: #EE7500;
-
-$text1: #000;
-$text2: #525252;
-$text3: #808080;
-$text4: #B1B1B1;
-$background1: #fff;
-$background2: #F5F5F5;
-$background3: #E0E0E0;
+@font-face {
+    font-family: 'Cerapro';
+    src: url('../assets/fonts/CeraPro-Regular.ttf');
+}
 
 html,
 body {
@@ -41,63 +14,50 @@ body {
 }
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: $font-stack;
-  scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $font-stack;
+    scroll-behavior: smooth;
 }
 
 h1 {
-  font-size: 68px;
-  line-height: 91px;
+    font-size: 68px;
+    line-height: 91px;
 
-  @media screen and (max-width: 768px) {
-    font-size: 38px;
-    line-height: 50px;
-  }
+    @media screen and (max-width: 768px) {
+        font-size: 38px;
+        line-height: 50px;
+    }
 }
 
 h2 {
-  font-size: 50px;
-  line-height: 62.85px;
+    font-size: 50px;
+    line-height: 62.85px;
 
-  @media screen and (max-width: 768px) {
-    font-size: 28px;
-    line-height: 42px;
-  }
+    @media (max-width: 768px) {
+        font-size: 28px;
+        line-height: 42px;
+     }
 }
 
 h3 {
-  font-size: 38px;
-  line-height: 50px;
+    font-size: 38px;
+    line-height: 50px;
+    font-weight: 400;
 
-  @media screen and (max-width: 768px) {
-    font-size: 24px;
-    line-height: 40px;
-  }
+    @media (max-width: 768px) {
+        font-size: 24px;
+        line-height: 40px;
+    }
 }
 
 h4 {
-  font-size: 28px;
-  line-height: 42px;
+    font-size: 28px;
+    line-height: 42px;
 
-  @media screen and (max-width: 768px) {
-    font-size: 20px;
-    line-height: 38px;
-  }
-}
-
-::-webkit-scrollbar {
-  width: 12px;
-}
-
-::-webkit-scrollbar-track {
-  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-  border-radius: 10px;
-}
-
-::-webkit-scrollbar-thumb {
-  border-radius: 10px;
-  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+    @media (max-width: 768px) {
+        font-size: 20px;
+        line-height: 38px;
+    }
 }

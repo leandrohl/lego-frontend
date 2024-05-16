@@ -1,0 +1,71 @@
+@import '../../styles/_variables.scss';
+
+
+.banner {
+    height: 100vh;
+    background-color: $text4;
+    color: $background1;
+
+    display: flex;
+    align-items: flex-end;
+
+    padding: 80px;
+
+    > h1 {
+        color: $background1;
+        font-size: 80px;
+        font-weight: 400;
+    }
+
+    @media (max-width: 768px) {
+        height: 375px;
+        padding: 20px;
+    }
+}
+
+.welcome {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 12px;
+    width: 100%;
+
+    > div {
+        display: flex;
+        align-items: flex-end;
+        gap: 16px;
+    }
+
+    @media (max-width: 768px) {
+        justify-content: flex-end;
+
+        > h1 {
+            display: none;
+        }
+    }
+    
+}
+
+.scroll-down {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+
+    bottom: 16px;
+    right: 32px;
+
+    @media (max-width: 768px) {
+        display: none;
+    }
+}
+
+.titleMobile {
+    display: none;
+    margin: 16px;
+    font-weight: 400;
+
+    @media (max-width: 768px) {
+        display: block;
+    }
+}
