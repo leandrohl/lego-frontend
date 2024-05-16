@@ -16,14 +16,17 @@ function App() {
     setIsOpenMenu(false)
   }
 
-  if (isOpenMenu) return (<Menu closeMenu={closeMenu}/>)
-
   return (
     <div>
-      <Navbar openMenu={openMenu}/>
-      <Banner />
-      <ListCards />
-      <Footer />
+      <Menu isOpen={isOpenMenu} closeMenu={closeMenu}/>
+      {!isOpenMenu && (
+        <div>
+          <Navbar openMenu={openMenu}/>
+          <Banner />
+          <ListCards />
+          <Footer />
+        </div>
+      )}
     </div> 
   )
 }

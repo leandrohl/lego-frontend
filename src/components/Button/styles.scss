@@ -20,3 +20,8 @@
         margin: 0;
     }
 }
+
+.button:hover {
+    border: 1px solid $brandBlue;
+    color: $brandBlue;
+}

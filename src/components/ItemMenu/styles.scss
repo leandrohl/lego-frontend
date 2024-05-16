@@ -1,0 +1,10 @@
+@import '../../styles/_variables.scss';
+
+.item-menu {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    justify-content: flex-start;
+
+    margin: 8px 0;
+}

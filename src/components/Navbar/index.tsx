@@ -22,14 +22,14 @@ const Navbar = ({ openMenu } : NavBarProps) => {
             </div>
             <nav>
                 <ul className='nav-bar'>
-                    <li> <a>Gifting</a> </li>
-                    <li> <a>Travel</a> </li>
-                    <li> <a>Adults Welcome</a> </li>
-                    <li> <a>Art & Home Décor</a>  </li>
-                    <li> <a>Space</a> </li>
-                    <li> <a>Pop Culture</a> </li>
-                    <li> <a>Toddlers</a> </li>
-                    <li> <a>Real World Role Playing</a> </li>
+                    <li> <a href='#gifting'>Gifting</a> </li>
+                    <li> <a href='#travel'>Travel</a> </li>
+                    <li> <a href='#adults-welcome'>Adults Welcome</a> </li>
+                    <li> <a href='#art-home'>Art & Home Décor</a>  </li>
+                    <li> <a href='#space'>Space</a> </li>
+                    <li> <a href='#pop-culture'>Pop Culture</a> </li>
+                    <li> <a href='#toddlers'>Toddlers</a> </li>
+                    <li> <a href='#real-world'>Real World Role Playing</a> </li>
                 </ul>
             </nav>
             <div className='items-menu'>

@@ -16,9 +16,8 @@ const ListCards = () => {
     return (
         <main className='list-cards' >
             {itemsToRender.map((category) => {
-
                 return (
-                    <section className='category'>
+                    <section className='category' id={category.id}>
                         <div className='category-header'>
                             <h4>{category.name}</h4>
                             {window.innerWidth >= 768 && <p className='description'>{category.description}</p>}

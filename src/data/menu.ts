@@ -2,7 +2,7 @@ export const menu = [
     {
         id: 1,
         name: 'Architecture',
-        url: 'https://i.ibb.co/G2vZ2CV/Rectangle-435.png'
+        url: 'https://i.ibb.co/G2vZ2CV/Rectangle-435.png',
     },
     {
         id: 2,

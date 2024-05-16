@@ -1,5 +1,6 @@
 
 const gifting = {
+    id: 'gifting',
     name: 'Gifting',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
     borderColor: '#EE7500',
@@ -24,6 +25,7 @@ const gifting = {
 }
 
 const travel = {
+    id:  'travel',
     name: 'Travel',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
     borderColor: '#00963E',
@@ -48,6 +50,7 @@ const travel = {
 }
 
 const adultsWelcome = {
+    id: 'adults-welcome',
     name: 'Adults Welcome',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
     borderColor: '#006CB7',
@@ -64,6 +67,7 @@ const adultsWelcome = {
 }
 
 const artHomeDecor = {
+    id: 'art-home',
     name: 'Art & Home Décor',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
     borderColor: '#E0E0E0',
@@ -80,6 +84,7 @@ const artHomeDecor = {
 }
 
 const space = {
+    id: 'space',
     name: 'Space',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
     borderColor: '#000000',
@@ -96,6 +101,7 @@ const space = {
 }
 
 const popCulture = {
+    id: 'pop-culture',
     name: 'Pop Culture',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
     borderColor: '#FC36A5',
@@ -112,6 +118,7 @@ const popCulture = {
 }
 
 const toddlers = {
+    id: 'toddlers',
     name: 'Toddlers',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
     borderColor: '#FFD500',
@@ -136,6 +143,7 @@ const toddlers = {
 }
 
 const realWorldRolePlaying = {
+    id: 'real-world',
     name: 'Real World Role Playing',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
     borderColor: '#E3000B',

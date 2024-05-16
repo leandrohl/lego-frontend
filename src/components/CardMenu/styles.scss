@@ -1,0 +1,14 @@
+@import '../../styles/_variables.scss';
+
+.card-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.card-menu:hover {
+    background-image: url('../../assets/images/texture.png');
+
+    background-color: $background1;
+}
