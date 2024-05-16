@@ -1,9 +1,9 @@
 import { useState } from 'react';
-import Banner from './components/Banner';
-import Footer from './components/Footer';
-import ListCards from './components/ListCards';
-import Navbar from './components/Navbar';
-import Menu from './components/Menu';
+import Banner from './components/organisms/Banner';
+import Footer from './components/atoms/Footer';
+import ListCards from './components/organisms/ListCards';
+import Navbar from './components/organisms/Navbar';
+import Menu from './components/organisms/Menu';
 
 function App() {
   const [isOpenMenu, setIsOpenMenu] = useState(false);

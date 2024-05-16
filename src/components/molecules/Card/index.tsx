@@ -1,8 +1,8 @@
 
 
-import Button from '../Button';
+import Button from '@components/atoms/Button';
 import './styles.scss'
-import ArrowLeft from '../../assets/svg/arrow-left.svg';
+import ArrowLeft from '@assets/svg/arrow-left.svg';
 
 interface CardProps {
     type: 'primary' | 'secondary';

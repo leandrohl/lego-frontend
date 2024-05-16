@@ -1,10 +1,10 @@
 
 
-import IconButton from '../IconButton';
+import IconButton from '@components/atoms/IconButton';
 import './styles.scss'
-import Sound from '../../assets/svg/sound.svg';
-import Film from '../../assets/svg/film.svg';
-import ChevronsDown from '../../assets/svg/chevrons-down.svg';
+import Sound from '@assets/svg/sound.svg';
+import Film from '@assets/svg/film.svg';
+import ChevronsDown from '@assets/svg/chevrons-down.svg';
 
 const Banner = () => {
     const textTitle = 'Welcome to the \n Play Matters Interactive Lookbook'

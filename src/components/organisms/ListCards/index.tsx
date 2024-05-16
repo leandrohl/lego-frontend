@@ -1,9 +1,9 @@
 
 
 import './styles.scss'
-import data from '../../data/home'
-import Card from '../Card'
-import { useWindowSize } from '../../hooks/useWindowSize';
+import data from '../../../data/home'
+import Card from '../../molecules/Card'
+import { useWindowSize } from '../../../hooks/useWindowSize';
 
 const ListCards = () => {
     const { widthScreen } = useWindowSize();

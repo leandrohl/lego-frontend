@@ -1,8 +1,8 @@
-import Lego from '../../assets/images/lego.png'
-import Categories from '../../assets/svg/icon-menu-web.svg'
-import Mail from '../../assets/svg/mail.svg'
-import Message from '../../assets/svg/message-circle.svg'
-import Search from '../../assets/svg/search.svg'
+import Lego from '@assets/images/lego.png'
+import Categories from '@assets/svg/icon-menu-web.svg'
+import Mail from '@assets/svg/mail.svg'
+import Message from '@assets/svg/message-circle.svg'
+import Search from '@assets/svg/search.svg'
 
 import './styles.scss'
 

@@ -1,4 +1,4 @@
-@import '../../styles/_variables.scss';
+@import '../../../styles/_variables.scss';
 
 @keyframes slideDown {
     from {
@@ -79,6 +79,7 @@
     > button {
         background: none;
         border: none;
+        cursor: pointer;
     }
 }
 

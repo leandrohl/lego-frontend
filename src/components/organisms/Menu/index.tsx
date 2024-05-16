@@ -1,13 +1,13 @@
-import Lego from '../../assets/images/lego.png'
-import CloseIcon from '../../assets/svg/close.svg'
-import ItemMenu from '../ItemMenu';
-import HomeIcon from '../../assets/svg/home.svg'
-import MessageCircle from '../../assets/svg/message-circle.svg'
-import ShoppingBag from '../../assets/svg/shoppingbag.svg'
+import Lego from '@assets/images/lego.png'
+import CloseIcon from '@assets/svg/close.svg'
+import ItemMenu from '@components/molecules/ItemMenu';
+import HomeIcon from '@assets/svg/home.svg'
+import MessageCircle from '@assets/svg/message-circle.svg'
+import ShoppingBag from '@assets/svg/shoppingbag.svg'
 
 import './styles.scss'
-import { menu } from '../../data/menu';
-import CardMenu from '../CardMenu';
+import { menu } from '@data/menu';
+import CardMenu from '@components/molecules/CardMenu';
 
 interface MenuProps {
     isOpen: boolean;
