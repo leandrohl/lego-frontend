@@ -1,0 +1,21 @@
+@import '../../styles/_variables.scss';
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid $background3;
+    padding: 20px;
+
+    > p {
+        color: $text3;
+        font-size: 15px;
+        line-height: 20px;
+        text-align: center;
+    }
+
+    @media (max-width: 768px) {
+        margin-top: 28px;
+        border-top: 1px solid $brandBlue;
+    }
+}
