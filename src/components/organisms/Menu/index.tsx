@@ -23,9 +23,9 @@ const Menu = ({isOpen, closeMenu}: MenuProps ) => {
                         <img src={Lego} alt='lego' height={48} width={48}/>
                         <button onClick={closeMenu} role='close-icon'><img src={CloseIcon} /></button>
                     </div>
-                    <ItemMenu icon={HomeIcon} text='Home'/>
-                    <ItemMenu icon={ShoppingBag} text='Requests'/>
-                    <ItemMenu icon={MessageCircle} text='Contact us'/>
+                    <ItemMenu href='#banner' onClick={closeMenu} icon={HomeIcon} text='Home'/>
+                    <ItemMenu href='' onClick={closeMenu} icon={ShoppingBag} text='Requests'/>
+                    <ItemMenu href='' onClick={closeMenu} icon={MessageCircle} text='Contact us'/>
                 </div>
                 <div className='themes'>
                     <span/>

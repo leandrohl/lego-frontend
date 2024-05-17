@@ -6,7 +6,14 @@ describe('ItemMenu component', () => {
     const testIcon = 'icon.svg';
     const testText = 'Test Text';
 
-    const { getByText, getByRole } = render(<ItemMenu icon={testIcon} text={testText} />);
+    const { getByText, getByRole } = render(
+      <ItemMenu 
+        href='' 
+        onClick={jest.fn()} 
+        icon={testIcon} 
+        text={testText} 
+      />
+    );
 
     const textElement = getByText(testText);
     const iconElement = getByRole('img');

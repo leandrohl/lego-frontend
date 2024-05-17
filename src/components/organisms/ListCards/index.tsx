@@ -4,6 +4,7 @@ import './styles.scss'
 import data from '../../../data/home'
 import Card from '../../molecules/Card'
 import { useWindowSize } from '../../../hooks/useWindowSize';
+import { Item } from '@/@types/HomeItem';
 
 const ListCards = () => {
     const { widthScreen } = useWindowSize();
@@ -24,7 +25,7 @@ const ListCards = () => {
                         </div>
                         <div className='item' style={{ borderColor: category.borderColor }}>
                             {window.innerWidth <= 768 && <p className='description'>{category.description}</p>}
-                            {category.items.map((item, index) => {
+                            {category.items.map((item: Item, index: number) => {
                                 isImageRight = !isImageRight; 
                                 return (
                                     <Card

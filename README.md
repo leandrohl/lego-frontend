@@ -21,10 +21,11 @@
 - **Jest e Testing Library** — Framework e coleção de ferramentas para testes unitários focados no comportamento do usuário final.
 - **Husky** — Ferramenta para configurar ganchos de Git para automatizar tarefas de pré-commit e pré-push.
 - **ESLint** - Ferramenta que ajuda a identificar e corrigir problemas de estilo e erros no código, promovendo boas práticas de codificação.
-
+- **Atomic Design** - Metodologia de design que quebra interfaces em componentes menores e independentes, promovendo reutilização e consistência em todo o sistema.
 
 ## :rocket: Projeto
- 
+<img src="./src/assets/images/web.gif" alt="PROJETO" width="100%">
+
 ## :bar_chart: Testes unitários
 <img src="./src/assets/images/coverage.png" alt="COVERAGE DO PROJETO" width="100%">
 <img src="./src/assets/images/testes-unitarios.png" alt="TESTES UNITÁRIOS" width="100%">

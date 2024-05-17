@@ -3,16 +3,18 @@
 import './styles.scss'
 
 interface ItemMenuProps {
+    href: string;
     icon: string;
     text: string;
+    onClick: () => void;
 }
 
-const ItemMenu = ({icon, text}: ItemMenuProps ) => {
+const ItemMenu = ({href, icon, text, onClick}: ItemMenuProps ) => {
     return (
-        <button className='item-menu'>
+        <a href={href} className='item-menu' onClick={onClick}>
            <img src={icon} />
            <p> {text} </p>
-        </button>
+        </a>
     )   
 }
 

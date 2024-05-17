@@ -9,7 +9,7 @@ import ChevronsDown from '@assets/svg/chevrons-down.svg';
 const Banner = () => {
     const textTitle = 'Welcome to the \n Play Matters Interactive Lookbook'
     return (
-        <section>
+        <section id='banner'>
             <div className='banner'>
                 <div className='welcome'>
                     <h1> {textTitle} </h1>
