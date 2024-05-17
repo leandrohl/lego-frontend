@@ -3,8 +3,26 @@
 .item-menu {
     display: flex;
     align-items: center;
-    gap: 16px;
+    gap: 24px;
     justify-content: flex-start;
 
     margin: 8px 0;
+    background: none;
+    border: none;
+    padding-left: 30%;
+    width: 100%;
+
+    cursor: pointer;
+    background-color: $background1;
+    transition: background-color 0.3s ease;
+
+    p {
+        font-size: 20px;
+        margin: 4px 0;
+    }
 }
+
+.item-menu:hover {
+    background-color: $blueXLight;
+}
+

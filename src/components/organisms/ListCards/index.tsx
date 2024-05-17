@@ -14,7 +14,7 @@ const ListCards = () => {
         : Object.values(data);
 
     return (
-        <main className='list-cards' >
+        <main>
             {itemsToRender.map((category) => {
                 return (
                     <section className='category' id={category.id} key={category.id}>

@@ -2,7 +2,7 @@
 
 import IconButton from '@components/atoms/IconButton';
 import './styles.scss'
-import Sound from '@assets/svg/sound.svg';
+import NoSound from '@assets/svg/no-sound.svg';
 import Film from '@assets/svg/film.svg';
 import ChevronsDown from '@assets/svg/chevrons-down.svg';
 
@@ -14,7 +14,7 @@ const Banner = () => {
                 <div className='welcome'>
                     <h1> {textTitle} </h1>
                     <div>
-                        <IconButton icon={Sound} onClick={() => {}} size='large'/>
+                        <IconButton icon={NoSound} onClick={() => {}} size='large'/>
                         <IconButton icon={Film} onClick={() => {}}/>
                     </div>
                 </div>

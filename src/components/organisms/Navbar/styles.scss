@@ -51,7 +51,11 @@
         }
     }
 
-    @media (max-width: 768px) {
+    li:hover {
+        color: $brandBlue;
+    }
+
+    @media (max-width: 1200px) {
         display: none;
     }
 }

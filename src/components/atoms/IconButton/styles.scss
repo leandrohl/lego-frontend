@@ -8,7 +8,7 @@
     border: 2px solid $background1;
     border-radius: 40px;
     background-color: rgba(245, 245, 245, 0.4);
-
+    cursor: pointer;
 
     img {
         margin: 0;
@@ -23,4 +23,8 @@
         height: 80px;
         width: 80px;
     }
+}
+
+.icon-button:hover {
+    border-color: $brandBlue;
 }

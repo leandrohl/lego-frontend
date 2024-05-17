@@ -3,7 +3,8 @@
 
 .banner {
     height: 100vh;
-    background-color: $text4;
+    background-image: url('../../../assets/images/lego.gif');
+    background-size: cover;
     color: $background1;
 
     display: flex;
@@ -62,7 +63,7 @@
 
 .titleMobile {
     display: none;
-    margin: 16px;
+    margin: 16px 16px 0 16px;
     font-weight: 400;
 
     @media (max-width: 768px) {
