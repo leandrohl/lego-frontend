@@ -14,18 +14,18 @@
 ```npm run test ``` : executar testes unitários
 
 ##  :computer: Tecnologias utilizadas
-- ⚛️ **React Js** — Biblioteca JavaScript para criação de interfaces de usuário dinâmicas.
-- ⚛️ **Vite** — Ferramenta de desenvolvimento frontend ultrarrápida baseada em JavaScript e TypeScript.
-- ⚛️ **Typesript** — Extensão do JavaScript com tipos estáticos opcionais para detecção precoce de erros.
-- ⚛️ **Sass** — Linguagem de folha de estilo CSS com recursos avançados como variáveis e aninhamento.
-- ⚛️ **Jest e Testing Library** — Framework e coleção de ferramentas para testes JavaScript focados no comportamento do usuário final.
-- ⚛️ **Husky** — Ferramenta para configurar ganchos de Git para automatizar tarefas de pré-commit e pré-push.
+- **React Js** — Biblioteca JavaScript para criação de interfaces de usuário dinâmicas.
+- **Vite** — Ferramenta de desenvolvimento frontend ultrarrápida baseada em JavaScript e TypeScript.
+- **Typesript** — Extensão do JavaScript com tipos estáticos opcionais para detecção precoce de erros.
+- **Sass** — Linguagem de folha de estilo CSS com recursos avançados como variáveis e aninhamento.
+- **Jest e Testing Library** — Framework e coleção de ferramentas para testes JavaScript focados no comportamento do usuário final.
+- **Husky** — Ferramenta para configurar ganchos de Git para automatizar tarefas de pré-commit e pré-push.
 
 ## :rocket: Projeto
  
 ## :rocket: Testes unitários
-<img src="assets/images/coverage.png" alt="COVERAGE DO PROJETO" width="100%">
-<img src="assets/images/testes-unitarios.png" alt="TESTES UNITÁRIOS" width="100%">
+<img src="./src/assets/images/coverage.png" alt="COVERAGE DO PROJETO" width="100%">
+<img src="./src/assets/images/testes-unitarios.png" alt="TESTES UNITÁRIOS" width="100%">
 
 
 ## Requisitos para avaliação:
