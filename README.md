@@ -1,5 +1,5 @@
 <h1 align="center">
-  Desafio Técnico - The Brookley Brothers
+  Lego
 <br />  
 </h1>
  <p align="center"> <strong> Objetivo: Implementar o layout de uma página responsiva utilizando React, Sass ou CSS, conforme as especificações fornecidas no Figma. </strong> </p>
